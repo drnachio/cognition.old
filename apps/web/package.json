@@ -5,7 +5,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "postinstall": "prisma generate ./prisma/schema.prisma",
+    "postinstall": "prisma generate",
     "lint": "next lint",
     "start": "next start"
   },
@@ -44,6 +44,6 @@
     "tsconfig": "workspace:*"
   },
   "ct3aMetadata": {
-    "initVersion": "6.8.0"
+    "initVersion": "6.8.1"
   }
 }
